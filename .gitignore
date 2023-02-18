@@ -1,10 +1,5 @@
 
 target/
-<<<<<<< HEAD
-dbt_packages/
-logs/
-=======
 dbt_modules/
 logs/
 dbt_packages/
->>>>>>> c54e95e520d995aac0ff8c68aad1fc52731619a7
