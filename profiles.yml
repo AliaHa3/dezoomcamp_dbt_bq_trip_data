@@ -1,0 +1,14 @@
+dbt_workshop:
+  outputs:
+    dev:
+      dataset: dbt_ahamwi
+      job_execution_timeout_seconds: 600
+      job_retries: 1
+      keyfile: /home/alia/dezoomcamp_dbt_bq_trip_data/dbt_service_account.json
+      location: europe-west6
+      method: service-account
+      priority: interactive
+      project: ######
+      threads: 4
+      type: bigquery
+  target: dev
